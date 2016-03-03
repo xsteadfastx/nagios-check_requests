@@ -6,6 +6,7 @@ setup(
     version='0.0',
     packages=['check_requests'],
     install_requires=[
+        'urllib3[secure]',
         'Click',
         'requests'
     ],
